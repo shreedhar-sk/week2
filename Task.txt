@@ -1,0 +1,5 @@
+Task 1 
+Create 3 cards in react with the help of Bootstrap
+
+Task 2
+Creaye Home Page of your Final Object

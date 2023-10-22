@@ -1,0 +1,12 @@
+If npx create-react-app project-react is not working then
+npm i -g npm@latest
+
+Rules to create Components
+- First letter of file name of the component is Caps.
+- File name and component name should be same
+- In one file you can create only one component.
+
+Types of components
+- Functional component
+- Arrow Functional Component
+- Class Component

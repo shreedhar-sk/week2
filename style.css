@@ -1,0 +1,173 @@
+/* styles.css */
+/* Your custom CSS styles go here */
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.navbar a {
+    color: #182e9a;
+}
+
+/* Homepage Styles */
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #ffac26;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Menu Page Styles */
+.menu-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.menu-item .price {
+    font-weight: 600;
+    color: #007bff;
+}
+
+/* Order Page Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* About Us Styles */
+.about-us {
+    text-align: left;
+}
+
+/* Contact Us Styles */
+.contact-info {
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Example styles for buttons */
+.btn-primary {
+    background-color: #ffac26;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff9800; /* Change color on hover */
+}
+
+/* Example styles for images */
+.menu-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Add a scaling effect on hover */
+}
+
+.menu-item img:hover {
+    transform: scale(1.05); /* Scale the image on hover */
+}
+
+/* Add more custom styles as needed to enhance your website's visual appeal. */
+/* Background */
+body {
+    background: url('https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg?cs=srgb&dl=pexels-lukas-349610.jpg&fm=jpg') no-repeat center center fixed ;
+    
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Button Styles */
+.btn-primary {
+    background-color: #ff5733; /* Change button background color */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff3019; /* Change button background color on hover */
+}
+/* Header Styles */
+.navbar {
+    background-color: #ff0000; /* Change header background color */
+    color: #4ab0ef;
+    font-weight: 600;
+}
+
+.navbar a {
+    color: #4772f3;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+    color: #ff5733; /* Change link color on hover */
+}
+/* Footer Styles */
+footer {
+    background-color: #222; /* Change footer background color */
+    color: #fff;
+    padding: 10px 0;
+    font-weight: 600;
+}
